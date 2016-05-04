@@ -1,10 +1,10 @@
 {
-  "name": "react-komposer-fork",
-  "version": "1.4.3",
+  "name": "react-komposer",
+  "version": "1.8.0",
   "description": "Compose React containers and feed data into components.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/react-komposer.git"
+    "url": "https://github.com/thiagodelgado111/react-komposer.git"
   },
   "license": "MIT",
   "options": {
