@@ -51,7 +51,7 @@ var _ = require('./');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function compose(fn, L1, E1) {
-  var _ref = arguments.length <= 3 || arguments[3] === undefined ? {} : arguments[3];
+  var _ref = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
 
   var contextTypes = _ref.contextTypes;
   var _ref$pure = _ref.pure;
@@ -83,7 +83,7 @@ function compose(fn, L1, E1) {
       function Container(props, context) {
         (0, _classCallCheck3.default)(this, Container);
 
-        var _this = (0, _possibleConstructorReturn3.default)(this, (0, _getPrototypeOf2.default)(Container).call(this, props, context));
+        var _this = (0, _possibleConstructorReturn3.default)(this, (Container.__proto__ || (0, _getPrototypeOf2.default)(Container)).call(this, props, context));
 
         _this.getWrappedInstance = _this.getWrappedInstance.bind(_this);
 
